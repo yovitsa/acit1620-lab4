@@ -1,11 +1,11 @@
 
 :root {
     --base-color: #5497df;
+    --text-color: #fff;
     --shadeing: #477bb3;
     --lighter: #176cc1;
-    --text-color: #fff;
     --bg-color-hover: #42abe393;
-    --shadow-color: rgba(106, 81, 81, 0.2);
+    --shadow-color: #6a515133;
    
    
 }
@@ -79,14 +79,13 @@ footer {
     padding: 10px 0;
     border-top: 1px solid var(--shadeing);
     margin-top: 30px;
-    /* background-color: var(--base-color);
-    color: var(--text-color); */
+
 }
- @media screen and (max-width: 600px;)
+ @media screen and (max-width: 600px)
 {
     section:hover {
         background-color: var(--bg-color-hover);
         color: var(--text-color);
-        padding: 30px;
+        
     }
  }
